@@ -1,4 +1,34 @@
-body {background-color:tan;}
-h1{color:green;}
+/* style the app body */
+body {background-color:black;font-family:arial;color:white}
 
+/* style the app heading */
+h1{color:grey;font-family:verdana}
 
+/* set the size of the main div container for the app */
+.maindiv{
+    background-color:white;
+    color:black;
+    padding: 20px;
+    width: 500px;
+    border-radius: 25px;
+    margin: auto;
+}
+
+/* create a grid late for labels and input controls */
+.form {
+    display: grid;
+    grid-gap: 10px;    
+    grid-template-columns: max-content max-content;
+    margin-bottom: 5px;
+}
+
+/* center labels/controls */
+.form label, button{
+    width:130px;
+    margin-left: 90px;
+}
+
+/* style the result text */
+.form span#result{
+    margin-left: 90px;
+}
